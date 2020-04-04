@@ -375,7 +375,6 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2rem;
-  text-align: center;
 }
 
 h2, .h2 {
@@ -401,7 +400,6 @@ h6, .h6 {
 .lead {
   font-size: 1.09375rem;
   font-weight: 300;
-  text-align: center;
 }
 
 .display-1 {
@@ -426,7 +424,6 @@ h6, .h6 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
-  text-align: center;
 }
 
 hr {
@@ -511,7 +508,6 @@ mark,
 .figure-caption {
   font-size: 90%;
   color: #919aa1;
-  text-align: center;
 }
 
 code {
@@ -588,8 +584,8 @@ pre code {
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   width: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }

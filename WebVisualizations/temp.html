@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Visualizations</title>
-
+    <title>Lat vs Temp</title>
     <!-- Bring bootstrap stylesheet --> 
     <link rel="stylesheet" href="bootstrap.css">
     <!-- Bring additional stylesheet -->
@@ -55,36 +54,21 @@
         </div>
       </nav>
 
-      <!--Container for explanation and images-->
+            <!--Container for explanation and images-->
     <div class = "container">
-        <div class = "row"> 
-            <div class="col-md-4">
-                <!--<h1 class="display-4">Summary: Latitude vs X</h1> -->
-                <h1>Summary: Latitude vs X</h1>
+        <div class="jumbotron">
+            <h1 class="display-3">Latitude vs Temperature</h1>
+            <p class="lead" >This is an analysis for the comparison between the latitude and the temperature.</p>
+            <hr class="my-4">
+            <figure>
+            <a><img src="assets\Lat_vs_Temp.png" alt="Lat_vs_Temp" width="300" height="300" class="rounded mx-auto d-block"> </a>
+            </figure>
+            <hr class="my-4">
 
-                <hr class="my-4">
-                <p>The purpose of this project was to analize how weather changes as you get closer to the equator. To accomplish this analysis, fist we pulled data from the OpenWheaterMap API to assemble a dataser on over 500 cities.</p>
-                <p>After assembling the dataset, we used Matplotlib to plor various aspects of the weather vs. latitude. Factors we looked at included: tempreature, cloudiness, humidity and wind speed. This site provides the source data and visualizations created as part of the analysis, aswell as explanations and descriptions of any trends and correlations witnessed.</p>
+            <p class="text-center">General description of LAT vs Temp.</p>
+            <p class="text-center">Statistical analysis of LAT vs Temp.</p>
+
             </div>
-
-            <div class="col-8">
-                <h1>Visualizations</h1>
-                <figure class="figure-caption">
-                <a href="temp.html" target = "blank"><img src="assets\Lat_vs_Temp.png" alt="Lat_vs_Temp" width="300" height="300"> </a>
-                <figcaption>Latitude vs Temperature </figcaption>
-                <a href="humidity.html" target = "blank"><img src="assets\Lat_vs_Humidity.png" alt="Lat_vs_Humidity" width="300" height="300"></a>
-                <figcaption>Latitude vs Humidity </figcaption>
-                <a href="cloudiness.html" target = "blank"><img src="assets\Lat_vs_Cloudiness.png" alt="Lat_vs_Temp" width="300" height="300"> </a>
-                <figcaption>Latitude vs Cloudiness </figcaption>
-                <a href="windspeed.html" target = "blank"><img src="assets\Lat_vs_WindSpeed.png" alt="Lat_vs_Temp" width="300" height="300"> </a>
-                <figcaption>Latitude vs Wind Speed </figcaption>
-                </figure>
-            </div>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    
 </body>
 </html>
